@@ -46,7 +46,7 @@ namespace Blacksmith {
             return loot.value * 2;
     }
 }
-
+// merchant
 int Merchant::offer(const Loot& loot) {
     switch(loot.type) {
         case LootType::Weapon:
